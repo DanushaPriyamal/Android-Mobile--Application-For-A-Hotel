@@ -1,3 +1,3 @@
 - Created an Android mobile application using the native development tool Android Studio.
 - Used Java and XML as the languages to build UIs and logic while using SQLite as the database.
-- The application allows customers to Create user accounts, Manage their profiles, Book rooms, Manage room bookings, Reserve hotel services, Check other service reservations, Manage service reservations, Check hotel offers and nearby attractions and Check notifications.
+- The application allows customers to Create user accounts, Manage their profiles, Book rooms, Manage room bookings, Reserve hotel services, Check other service reservations, Manage service reservations, Check hotel offers and nearby attractions, and Check notifications.
