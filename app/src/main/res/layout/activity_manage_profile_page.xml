@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".manageProfilePage"
+    android:background="@drawable/manage_profile_background"
+    android:layout_gravity="center"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_effect"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage Profile"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#061C6D"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please fill this with your account full name and email"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#F31313"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/full_name_input_manage_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:textColor="#061C6D"
+            android:textColorHint="#061C6D"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/manage_profile_email_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#061C6D"
+            android:textColorHint="#061C6D"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/travel_dates_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your travel dates (e.g., 13-11-2024 to 20-11-2024)"
+            android:inputType="textMultiLine"
+            android:textColor="#061C6D"
+            android:textColorHint="#061C6D"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/preferences_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your preferences (e.g., Ocean View Room, Spa Treatment)"
+            android:inputType="textMultiLine"
+            android:textColor="#061C6D"
+            android:textColorHint="#061C6D"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:backgroundTint="@color/white"
+            android:textColor="#061C6D"
+            android:padding="18dp"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

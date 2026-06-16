@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".serviceReservationForm"
+    android:background="@drawable/service_reservation_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_effect"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service Reservation"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#061C6D"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please fill this with your account full name and email"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#F31313"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/full_name_service_reservation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:textColor="#061C6D"
+            android:textColorHint="#061C6D"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/email_service_reservation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#061C6D"
+            android:textColorHint="#061C6D"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/service_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Service Type (e.g., Spa Treatments, Fine Dinning, Poolside Cabanas, Guided Beach Tours)"
+            android:inputType="textMultiLine"
+            android:textColor="#061C6D"
+            android:textColorHint="#061C6D"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/service_reservation_dates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your reservation date (e.g., 13-11-2024)"
+            android:inputType="textMultiLine"
+            android:textColor="#061C6D"
+            android:textColorHint="#061C6D"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/service_reservation_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your reservation time (e.g., 6.30 PM to 7.30 PM)"
+            android:inputType="textMultiLine"
+            android:textColor="#061C6D"
+            android:textColorHint="#061C6D"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/serviceReservationBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reserve"
+            android:backgroundTint="@color/white"
+            android:textColor="#061C6D"
+            android:padding="18dp"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
